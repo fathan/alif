@@ -10,6 +10,18 @@ website: http://alijarahindonesia.com/
 $(document).ready(function () {
 	new WOW().init();
 
+	// MOBILE NAVBAR
+	$('.button-collapse').sideNav({
+    menuWidth: 300, // Default is 240
+    edge: 'right', // Choose the horizontal origin
+    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  });
+
+	// DROPDOWN MENU CLOSED
+	$('.dropdown-menu').click(function(event){
+		event.stopPropagation();
+	});​
+
 	// MENU TOGGLE DOWN
 	$(".dropdown-toggle").click(function(){
 	    $(".dropdown-menu").slideDown();

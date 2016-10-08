@@ -1,0 +1,148 @@
+// START HEADER TOP
+.header-top{
+	display: block;
+	width: 100%;
+	background: $color-alif-green;
+	padding: 15px 0px;
+
+	.box-language{
+		width: 40%;
+		float: left;
+		color: $color-white;
+
+		a{
+			color: $color-white;
+		}
+	}
+
+	.box-page{
+		width: 60%;
+		float: right;
+
+		ul{
+			float: right;
+			right: 0;
+			margin-bottom: 0px;
+
+			li{
+				float: left;
+				margin-right: 10px;
+				list-style: none;
+
+				a{
+					color: $color-white;
+				}
+			}
+		}
+	}
+}
+// END HEADER TOP
+
+// START NAVBAR DESKTOP
+.navbar-desktop{
+	display: block;
+	width: 100%;
+	background: #F5F5F5;
+	border-bottom: 1px solid #e6e6e6;
+
+	.main-content-nav{
+		width: 100%;
+		display: inline-block;
+		margin: 25px 0px;
+
+		.logo-wrapper{
+			float: left;
+			width: 15%;
+
+			.image{
+				
+				img{
+					width: 100%;
+					height: auto;
+					display: block;
+				}
+			}
+		}
+
+		.social-media-wrapper{
+			float: right;
+			width: 85%;
+
+			ul{
+				float: right;
+				right: 0;
+				margin-bottom: 0px;
+				margin-top: 30px;
+
+				li{
+					list-style: none;
+					margin-right: 10px;
+					float: left;
+
+					a{
+						width: 50px;
+						height: 50px;
+						@include border-radius(50%);
+						
+						i{
+							margin-top: 6px;
+							font-size: 23px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.navbar{
+		margin-bottom: -25px;
+
+		&.navbar-default{
+			background-color: $color-alif-purple;
+			border: $color-alif-purple;
+			z-index: 99;
+
+			.navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+			  color: $color-white;
+			  background-color: $color-alif-green;
+			}
+		}
+
+		.navbar-nav > li > a{
+			color: $color-white;
+		}
+
+		.navbar-nav > .active > a, 
+		.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+		  background-color: $color-alif-green;
+		}
+
+		.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+		  color: $color-white;
+		  background-color: $color-alif-green;
+		}
+
+		.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+		  color: $color-white;
+		  text-decoration: none;
+		  background-color: $color-alif-green;
+		}
+
+		.dropdown-menu > li > a{
+			padding: 15px 20px;
+
+			&:focus, .dropdown-menu > li > a:hover {
+			  color: $color-white;
+			  text-decoration: none;
+			  background-color: $color-alif-green;
+			}
+		}
+	}
+}
+// END NAVBAR DESKTOP
+
+// START NAVBAR MOBILE
+.navbar-mobile{
+	display: none;
+}
+// END NAVBAR MOBILE

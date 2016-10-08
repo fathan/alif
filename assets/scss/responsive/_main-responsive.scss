@@ -35,7 +35,13 @@
 }
 
 @media screen and (max-width: 768px) {
+	.navbar-desktop{
+		display: none;
+	}
 
+	.navbar-mobile{
+		display: block;
+	}
 }
 
 @media screen and (max-width: 650px) {

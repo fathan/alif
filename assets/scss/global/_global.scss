@@ -9,8 +9,32 @@ a{
     @include transition(0.4s);
 }
 
+.section{
+    padding: 50px 0px;
+
+    .box-title{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 50px;
+
+        .title{
+            font-size: 24px;
+            font-family: open-sans-bold;
+            margin-bottom: 10px;
+            color: $color-black;
+        }
+
+        .description{
+            font-size: 18px;
+            font-family: open-sans-light;
+            color: $color-black;
+        }
+    }
+}
+
 .site-wrapper{
-    // overflow: hidden;
+    overflow: hidden;
 }
 
 .wow {
@@ -20,30 +44,32 @@ a{
 // BACK TO TOP
 #back-to-top {
     position: fixed;
-    bottom: 100px;
-    right: 40px;
+    bottom: 30px;
+    right: 5%;
     z-index: 9999;
     width: 37px;
     height: 37px;
     text-align: center;
     line-height: 30px;
-    background: #1e55a3;
+    background: #8cc551;
     color: #FFFFFF;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #8cc551;
     border-radius: 0px;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
     opacity: 0;
     font-size: 20px;
     padding: 0px;
-    border-radius: 50%;
-    @include transition(0.4s);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 #back-to-top:hover {
     background: #FFFFFF;
-    color: #3a536d;
+    color: #8cc551;
     @include transition(0.4s);
 }
 

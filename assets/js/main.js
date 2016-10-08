@@ -10,18 +10,6 @@ website: http://alijarahindonesia.com/
 $(document).ready(function () {
 	new WOW().init();
 
-	// MOBILE NAVBAR
-	$('.button-collapse').sideNav({
-    menuWidth: 300, // Default is 240
-    edge: 'right', // Choose the horizontal origin
-    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-  });
-
-	// DROPDOWN MENU CLOSED
-	$('.dropdown-menu').click(function(event){
-		event.stopPropagation();
-	});​
-
 	// MENU TOGGLE DOWN
 	$(".dropdown-toggle").click(function(){
 	    $(".dropdown-menu").slideDown();
@@ -34,8 +22,8 @@ $(document).ready(function () {
 	$('#header-microbiz').scrollToFixed();
 
 	// SET HEIGHT CAROUSEL HOME
-	$('.carousel-car .item').each(function(){
-		var topSlider = $('.carousel-car').outerWidth() / 2.4;
+	$('.carousel-home-body .item').each(function(){
+		var topSlider = $('.carousel-home-body').outerWidth() / 2.0;
 		$(this).css('height', topSlider);
 	});
 
@@ -63,4 +51,20 @@ $(document).ready(function () {
     	}, 700);
     });
 	}
+
+	// CAROUSEL HOME NEWS
+  var owl = $("#carousel-home-wrapper");
+  owl.owlCarousel({
+      items : 4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+  });
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
 });

@@ -1,5 +1,79 @@
 .alif-grid-news{
 	@extend .box-wrapper;
+
+	.box-grid-news{
+		@extend .box-wrapper;
+
+		.list-grid-news{
+			width: 25%;
+			float: left;
+			z-index: 999;
+			border: 1px solid $color-white;
+			cursor: pointer;
+			@include transition(0.4s);
+
+			&:hover{
+				img {
+				  -moz-transform: scale(1.1);
+				  -webkit-transform: scale(1.1);
+				  transform: scale(1.1);
+				}
+
+				.overlay{
+					position: absolute;
+					background: rgba(0, 0, 0, 0.58);
+					width: 100%;
+					height: 100%;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					display: table;
+					margin: auto;
+					@include transition(0.4s);
+
+					a{
+						margin: auto;
+				    display: table;
+				    margin-top: 40%;
+					}
+				}
+			}
+
+			.image{
+				overflow: hidden;
+				background: #111111;
+				width: 100%;
+				height: 250px;
+				position: relative;
+
+				img{
+					width: auto;
+					height: 100%;
+					display: table;
+					margin: auto;
+					@include transition(0.4s);
+				}
+			}
+
+			.content{
+				@extend .box-wrapper;
+				padding: 15px;
+
+				.title{
+					font-family: open-sans-bold;
+					font-size: 16px;
+					margin-bottom: 5px;
+					color: $color-white;
+				}
+
+				.author-date{
+					color: $color-white;
+					font-size: 12px;
+				}
+			}
+		}
+	}
 }
 
 .alif-carousel-news{

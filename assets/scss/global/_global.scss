@@ -23,6 +23,7 @@ a{
             font-family: open-sans-bold;
             margin-bottom: 10px;
             color: $color-black;
+            text-transform: uppercase;
         }
 
         .description{
@@ -75,4 +76,16 @@ a{
 
 #back-to-top.show {
     opacity: 1;
+}
+
+
+// BACKGROUND IMAGE
+.bg1{
+     background: url(../images/gallery/bg1.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
 }

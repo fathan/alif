@@ -40,6 +40,46 @@
 }
 
 // CAROUSEL
+.carousel-inner > .item > a > img, .carousel-inner > .item > img{
+	width: 100%;
+}
+
 .carousel-caption{
 	bottom: 40%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.76);
+
+	h1{
+		text-transform: uppercase;
+
+		span{
+			color: $color-alif-green;
+		}
+	}
+}
+
+.carousel-indicators{
+	.active{
+		width: 15px;
+    height: 15px;
+    margin: 0;
+    background-color: $color-alif-green;
+    border: 1px solid $color-alif-green;
+
+	}
+
+	li{
+		display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: $color-alif-green;
+    background-color: transparent;
+    border: 1px solid $color-alif-green;
+    border-radius: 0px;
+	}
 }

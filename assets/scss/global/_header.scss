@@ -29,6 +29,10 @@
 				margin-right: 10px;
 				list-style: none;
 
+				&:last-child{
+					margin-right: 0px;
+				}
+
 				a{
 					color: $color-white;
 				}
@@ -78,6 +82,10 @@
 					list-style: none;
 					margin-right: 10px;
 					float: left;
+
+					&:last-child{
+						margin-right: 0px;
+					}
 
 					a{
 						width: 50px;

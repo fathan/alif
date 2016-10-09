@@ -4,7 +4,7 @@
 	width: 100%;
 
 	.footer-one{
-		background-color: $color-gray-dark;
+		background-color: #111111;
 		border-top: 5px solid $color-alif-green;
 		display: inline-block;
 		width: 100%;
@@ -30,6 +30,10 @@
 				li{
 					list-style: none;
 					margin-bottom: 15px;
+
+					&.last-child{
+						margin-bottom: 10px;
+					}
 
 					a{
 						color: $color-white;

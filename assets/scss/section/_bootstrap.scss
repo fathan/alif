@@ -1,5 +1,7 @@
 // NAVBAR
 .navbar-desktop{
+	display: block;
+
 	.dropdown-menu .sub-menu {
 		left: 100%;
 		position: absolute;
@@ -9,7 +11,7 @@
 	}
 
 	.dropdown-menu li:hover .sub-menu {
-		visibility: collapse;
+		visibility: visible;
 	}
 
 	.dropdown:hover .dropdown-menu {
@@ -37,6 +39,10 @@
 		top: 11px;
 		left: -6px;
 	}
+}
+
+.navbar-mobile{
+	display: none;
 }
 
 // CAROUSEL

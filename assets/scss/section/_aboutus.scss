@@ -1,0 +1,110 @@
+.about-profile{
+	@extend .box-wrapper;
+	
+	.profile{
+		@extend .box-wrapper;
+
+		p{
+			line-height: 30px;
+			font-size: 14px;
+			text-align: justify;
+		}
+	}
+
+	.vision-mission{
+		position: relative;
+
+		// &:after {
+		//   @include triangle-bottom($color-white);
+		// }
+
+		img{
+			margin: auto;
+			margin-top: 50px;
+			display: table;
+		}
+
+		.title{
+			font-family: open-sans-bold;
+			font-size: 25px;
+			color: $color-black;
+			margin-bottom: 15px;
+		}
+
+		ol{
+			padding-left: 15px;
+
+			li{
+				line-height: 30px;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.about-management{
+	// @extend .box-wrapper;
+
+	.list-user{
+		width: 25%;
+		float: left;
+		z-index: 999;
+		cursor: pointer;
+		@include transition(0.4s);
+
+		&:hover{
+			img {
+			  -moz-transform: scale(1.1);
+			  -webkit-transform: scale(1.1);
+			  transform: scale(1.1);
+			}
+
+			.overlay{
+				position: absolute;
+				background: rgba(0, 0, 0, 0.58);
+				width: 100%;
+				height: 100%;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				display: table;
+				margin: auto;
+				@include transition(0.4s);
+
+				.box-profile{
+					text-align: center;
+					margin-top: 50%;
+
+					.name{
+						color: $color-white;
+						font-size: 16px;
+						font-family: open-sans-bold;
+					}
+
+					.position{
+						color: $color-white;
+						font-size: 14px;
+						font-family: open-sans-light;
+					}
+				}
+			}
+		}
+		
+		.image{
+			width: 100%;
+			height: 300px;
+			overflow: hidden;
+			background-color: $color-gray-dark;
+			position: relative;
+
+			img{
+				display: table;
+				margin: auto;
+				width: auto;
+				height: 100%;
+				@include transition(0.4s);
+			}
+		}
+	}
+}

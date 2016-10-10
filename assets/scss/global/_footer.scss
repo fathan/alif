@@ -10,6 +10,47 @@
 		width: 100%;
 		padding: 50px 0px;
 
+		.f-content-one{
+			background: transparent;
+			margin-top: -10em;
+			margin-bottom: 3em;
+			height: 180px;
+			
+			.box-list{
+				@extend .box-wrapper;
+				
+				.list-section-content{
+					width: 25%;
+			    float: left;
+			    display: inline-block;
+			    padding: 30px 0px;
+			    text-align: center;
+			    border-top: 5px solid $color-alif-green;
+
+					.icon{
+						background-color: transparent;
+						width: 70px;
+						height: 70px;
+						margin: auto;
+						display: table;
+						@include border-radius(50px);
+						border: 1px solid $color-white;
+						margin-bottom: 20px;
+
+						i{
+							color: $color-white;
+							font-size: 30px;
+							margin-top: 18px;
+						}
+					}
+
+					.name{
+						color: $color-white;
+					}
+				}
+			}
+		}
+
 		.f-content-two{
 			width: 100%;
 			display: inline-block;

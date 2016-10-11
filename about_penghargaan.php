@@ -68,6 +68,34 @@
 				</div>
 			</div>
 		</section>
+		<section class="section about-awards">
+			<div class="container">
+				<div class="row">
+					<div class="box-awards">
+						<div class="col-md-6">
+							<div class="image">	
+								<img src="assets/images/awards/awardinfobank2009.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image">	
+								<img src="assets/images/awards/awardinvestor2009.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image">	
+								<img src="assets/images/awards/awardsinfobank2010.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image">	
+								<img src="assets/images/awards/awardsinfobank2011.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<br>
 		<br>
 		<br>

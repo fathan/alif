@@ -68,6 +68,48 @@
 				</div>
 			</div>
 		</section>
+		<section class="section bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="http://alijarahindonesia.com/core/application/image/muamalat_new.jpg" alt="">
+					</div>
+					<div class="col-md-9">
+						<p>
+							Bank Muamalat Indonesia (BMI) adalah salah satu pendiri kunci Al Ijarah. BMI telah memiliki jaringan yang mapan di Indonesia yang akan memperkuat bisnis Al Ijarah.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section bg-gray-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="http://alijarahindonesia.com/core/application/image/boubyan_capital_new.png" alt="">
+					</div>
+					<div class="col-md-9">
+						<p>
+							Boubyan Capital Investment Company adalah perusahaan pengelolaan investasi syariah yang berbasis di Kuwait. Perusahaan ini didirikan sebagai perpanjangan tangan bagi Boubyan Bank dalam hal investasi. Sebagai anak perusahaan Boubyan Bank, Boubyan Capital mengkombinasikan kekuatan dan sumber daya dari salah satu perusahaan keuangan dengan pertumbuhan tercepat dalam menawarkan berbagai solusi keuangan untuk menjadi perusahaan investasi Syariah terkemuka di Kuwait.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="http://alijarahindonesia.com/core/application/image/alpha.jpg" alt="">
+					</div>
+					<div class="col-md-9">
+						<p>
+							Alpha Lease and Finance Holding B.S.C (Alpha) menjadi pemegang saham Al Ijarah pada bulan Juni 2009 setelah mengambil alih saham Al Ijarah dari International Leasing & Investment Company (ILIC). Alpha didirikan untuk mengembangkan dan mengelola portofolio asset - asset leasing di Asia, Afrika Utara serta negara - negara Arab dan Teluk oleh ILIC, Soukuk Exchange Centre (Tadawul) BSC - Bahrain dan Sabaek Leasing & Investment Co - Kuwait pada bulan Desember 2007 di Bahrain.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		<br>
 		<br>
 		<br>

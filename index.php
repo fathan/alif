@@ -65,27 +65,15 @@
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
 						<img src="assets/images/slider/slider1.jpg" alt="...">
-						<div class="carousel-caption">
-							<h1><span>Al Ijarah</span> Finance Indonesia</h1>
-						</div>
 					</div>
 					<div class="item">
 						<img src="assets/images/slider/slider2.jpg" alt="...">
-						<div class="carousel-caption">
-							<h1><span>alif sangat Mudah</span> dan Cepat</h1>
-						</div>
 					</div>
 					<div class="item">
 						<img src="assets/images/slider/slider3.jpg" alt="...">
-						<div class="carousel-caption">
-							<h1><span>Terjangkau</span> serta Terpercaya</h1>
-						</div>
 					</div>
 					<div class="item">
 						<img src="assets/images/slider/slider4.jpg" alt="...">
-						<div class="carousel-caption">
-							<h1>Banyak diminati <span>Semua orang</span></h1>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -316,7 +304,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>
@@ -338,7 +327,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>
@@ -360,7 +350,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>
@@ -382,7 +373,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>
@@ -404,7 +396,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>
@@ -426,7 +419,8 @@
 											<div class="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad quo, recusandae tenetur aliquid iusto culpa.
 											</div>
-											<a href="#" class="btn btn-success btn-sm">
+											<a href="#" class="btn btn-default btn-sm">
+												<i class="fa fa-search"></i>
 												Lihat detail
 											</a>
 										</div>

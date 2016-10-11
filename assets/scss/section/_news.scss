@@ -87,7 +87,13 @@
 			border: #CCCCCC;
 			background: $color-white;
 			position: relative;
-			border: 1px solid #e6e6e6;
+			border: 1px solid #DDDDDD;
+
+			&:hover{
+				border-color: #999999;
+				-webkit-box-shadow: 0 0 15px 3px rgba(0,0,0,0.10);
+				box-shadow: 0 0 15px 3px rgba(0,0,0,0.10);
+			}
 
 			.image{
 				// position: relative;

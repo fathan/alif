@@ -3,16 +3,35 @@
 	display: block;
 	width: 100%;
 	background: $color-alif-green;
+	border-bottom: 2px solid #89bb55;
 	padding: 0px 0px;
 
 	.box-language{
-		width: 40%;
 		float: left;
 		color: $color-white;
-		padding: 15px;
-		
-		a{
-			color: $color-white;
+
+		ul{
+			float: left;
+			left: 0;
+			margin-bottom: 0px;
+			padding: 0px;
+
+			li{
+				float: left;
+				list-style: none;
+				display: inline-block;
+				padding: 15px 15px;
+				cursor: pointer;
+
+				&.active{
+					background: #89bb55;
+				}
+
+				a{
+					text-decoration: none;
+					color: $color-white;
+				}
+			}
 		}
 	}
 

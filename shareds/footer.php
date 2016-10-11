@@ -10,7 +10,7 @@
 									<i class="fa fa-map-marker"></i>
 								</div>
 								<div class="name">
-									Menara Palma, Kuningan, Jakarta
+									Menara Palma lantai 25 <br>Jl. HR. Rasuna Said Blok X2 Kav. 6 Kuningan Jakarta Selatan 12950 Indonesia
 								</div>
 							</div>
 							<div class="list-section-content bg-alif-purple-2">
@@ -18,7 +18,17 @@
 									<i class="fa fa-phone"></i>
 								</div>
 								<div class="name">
-									(021)123345
+									Telephone:<br>
+									021-57957552 / 53
+								</div>
+							</div>
+							<div class="list-section-content bg-alif-purple-4">
+								<div class="icon">
+									<i class="fa fa-fax"></i>
+								</div>
+								<div class="name">
+									FAX:<br>
+									021-57957507
 								</div>
 							</div>
 							<div class="list-section-content bg-alif-purple-3">
@@ -26,15 +36,8 @@
 									<i class="fa fa-envelope"></i>
 								</div>
 								<div class="name">
+									Email:<br>
 									info@alijarahindonesia.com
-								</div>
-							</div>
-							<div class="list-section-content bg-alif-purple-4">
-								<div class="icon">
-									<i class="fa fa-globe"></i>
-								</div>
-								<div class="name">
-									www.alijarahindonesia.com
 								</div>
 							</div>
 						</div>
@@ -107,11 +110,6 @@
 							<li>
 								<a href="#">
 									F.A.Q
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Hubungi kami
 								</a>
 							</li>
 						</ul>

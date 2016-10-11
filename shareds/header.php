@@ -3,16 +3,28 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="box-language">
-					<a href="#">English</a> |
-					<a href="#">Indonesia</a>
+					<ul>
+						<li class="active">
+							<a href="#">Indonesia</a>
+						</li>
+						<li class="#">
+							<a href="#">English</a>
+						</li>
+					</ul>
 				</div>
 				<div class="box-page">
 					<ul>
-						<li class="bg-alif-purple">
-							<a href="#">Sign In</a>
+						<li class="#">
+							<a href="#">
+								<i class="fa fa-sign-in"></i>
+								Sign In
+							</a>
 						</li>
-						<li class="bg-alif-purple-2">
-							<a href="#">Register</a>
+						<li class="#">
+							<a href="#">
+								<i class="fa fa-users"></i>
+								Register
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -74,7 +86,7 @@
 								<a href="/">Home</a>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami <span class="caret"></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Al-Ijarah <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="about_profile.php">Profil</a></li>
 									<li><a href="about_manajemen.php">Manajemen</a></li>
@@ -89,6 +101,15 @@
 									<li><a href="#">Pembiyaan retail (Konsumen)</a></li>
 									<li><a href="#">Pembiyaan nonretail (Komersial)</a></li>
 									<li><a href="#">Skema pembiayaan</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pembiayaan <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Proses dan Syarat</a></li>
+									<li><a href="#">Pilih mobil</a></li>
+									<li><a href="#">Simulasi</a></li>
+									<li><a href="#">Paket promo</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -110,11 +131,12 @@
 									<li><a href="#">Ubah data member</a></li>
 								</ul>
 							</li>
-							<li >
-								<a href="#" class="#">Hubungan Investor</a>
-							</li>
-							<li >
-								<a href="#" class="#">Hubungi kami</a>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hubungan Investor <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Annual report</a></li>
+									<li><a href="#">Inquiry form</a></li>
+								</ul>
 							</li>
 						</ul>
 					</div>

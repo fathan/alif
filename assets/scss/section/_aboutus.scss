@@ -43,67 +43,86 @@
 }
 
 .about-management{
-	// @extend .box-wrapper;
+	@extend .box-wrapper;
 
-	.list-user{
-		width: 25%;
-		float: left;
-		z-index: 999;
-		cursor: pointer;
-		@include transition(0.4s);
+	.body-management{
+		@extend .box-wrapper;
+		border-bottom: 1px solid #CCCCCC;
+		margin-bottom: 20px;
+		padding: 0px 0px 20px 0px;
 
-		&:hover{
-			img {
-			  -moz-transform: scale(1.1);
-			  -webkit-transform: scale(1.1);
-			  transform: scale(1.1);
+		.content-left{
+			width: 100%;
+
+			.image{
+				overflow: hidden;
+				width: 280px;
+				height: 280px;
+				background: $color-gray-dark;
+				margin: auto;
+				margin-bottom: 10px;
+
+				img{
+					display: table;
+					margin: auto;
+					width: auto;
+					height: 100%;
+				}
 			}
 
-			.overlay{
-				position: absolute;
-				background: rgba(0, 0, 0, 0.58);
-				width: 100%;
-				height: 100%;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				display: table;
-				margin: auto;
-				@include transition(0.4s);
+			.description{
+				@extend .box-wrapper;
+				text-align: center;
 
-				.box-profile{
-					text-align: center;
-					margin-top: 50%;
+				.name{
+					font-family: open-sans-bold;
+					font-size: 16px;
+					color: $color-gray-dark;
+				}
 
-					.name{
-						color: $color-white;
-						font-size: 16px;
-						font-family: open-sans-bold;
-					}
-
-					.position{
-						color: $color-white;
-						font-size: 14px;
-						font-family: open-sans-light;
-					}
+				.position{
+					font-family: open-sans-light;
+					font-size: 14px;
+					color: $color-gray-dark;
 				}
 			}
 		}
-		
+
+		.content-right{
+			@extend .box-wrapper;
+
+			p{
+				line-height: 25px;
+				text-align: justify;
+			}
+		}
+	}
+}
+
+.about-awards{
+	@extend .box-wrapper;
+
+	.box-awards{
+		width: 100%;
+
 		.image{
-			width: 100%;
-			height: 300px;
 			overflow: hidden;
-			background-color: $color-gray-dark;
-			position: relative;
+			width: 100%;
+			height: 350px;
+			background: #CCCCCC;
+			margin-bottom: 30px;
+
+			&:hover{
+				border-color: #999999;
+				-webkit-box-shadow: 0 0 15px 3px rgba(0,0,0,0.10);
+				box-shadow: 0 0 15px 3px rgba(0,0,0,0.10);
+			}
 
 			img{
 				display: table;
 				margin: auto;
 				width: auto;
 				height: 100%;
-				@include transition(0.4s);
 			}
 		}
 	}
